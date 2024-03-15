@@ -1,0 +1,327 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif, '微軟正黑體';
+}
+
+body {}
+
+p {
+    line-height: 1.5;
+}
+
+.container {}
+
+header ul {
+    display: flex;
+    line-height: 84px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header h1 {}
+
+header h1 img {}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    margin-right: 15px;
+}
+
+section {}
+
+.banner {
+    /* position: relative; */
+}
+
+.banner img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.search-container {
+    position: absolute;
+    bottom: 15%;
+    顶部位置 left: 20%;
+    左侧位置 transform: translate(-50%, -50%);
+    居中 padding: 10px;
+    height: 60px;
+}
+
+*/ .search-box {
+    display: flex;
+    height: 40px;
+    /* width: 400px;
+}
+
+.search-box input {
+    width: 70%;
+    height: auto;
+    line-height: 0px;
+    border: 0;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+.search-box button {
+    height: auto;
+    text-align: center;
+    width: 30%;
+    line-height: 0px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: initial;
+    border: 0;
+    margin-left: 0px;
+}
+
+.search-box input[type="search"]::placeholder {
+    color: #9999999b;
+    /* 修改颜色 */
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    height: 100%;
+    /* 修改字体样式 */
+    /* 其他样式属性 */
+}
+
+section.top {}
+
+.topall {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 12%;
+    margin-right: 12%;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.topall h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.topall h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.topall p {
+    line-height: 1.5;
+}
+
+.topall img {
+    margin-top: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+.pbox1 {
+    background-color: rgb(234, 108, 30);
+    width: 25%;
+    padding: 20px;
+    padding-right: 55px;
+}
+
+.pbox2 {
+    background-color: rgb(234, 50, 30);
+    width: 25%;
+    padding: 20px;
+    padding-right: 55px;
+}
+
+.pbox3 {
+    background-color: rgb(31, 30, 30);
+    width: 25%;
+    padding: 20px;
+    padding-right: 55px;
+}
+
+.pbox4 {
+    background-color: rgb(95, 95, 91);
+    width: 25%;
+    padding: 20px;
+    padding-right: 55px;
+}
+
+article {
+    padding: 30px;
+    padding-left: 21%;
+    padding-right: 21%;
+    background-color: rgb(216, 215, 215);
+}
+
+article h2 {
+    text-align: center;
+    color: rgb(249, 114, 11);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+article>p.articlep {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-left: 154px;
+    padding-right: 154px;
+}
+
+article a {
+    display: block;
+    margin: auto;
+    color: white;
+    background: linear-gradient(to right, rgb(255, 102, 31), rgba(222, 68, 16, 0.858));
+    padding: 25px;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    justify-content: center;
+}
+
+nav {}
+
+nav.bottom1 {}
+
+.navall {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 12%;
+    margin-right: 12%;
+    justify-content: space-evenly;
+}
+
+.bottombox {
+    width: 33.3%;
+    height: 500px;
+    background-color: rgba(215, 215, 215, 0.668);
+    text-align: center;
+}
+
+.bottombox img {
+    vertical-align: bottom;
+    width: 100%;
+    height: 500px;
+}
+
+.bottombox2 {
+    width: 33.3%;
+    height: 500px;
+    background-color: rgba(215, 215, 215, 0.668);
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 25px;
+    padding-top: 150px;
+}
+
+
+
+.bottombox2 h5 {
+    font-size: 30px;
+    word-wrap: break-word;
+
+}
+
+
+
+.read {
+    color: rgb(149, 149, 149);
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 3px;
+}
+
+.bottombox2 img {
+    width: 120px;
+    height: 120px;
+}
+
+nav.bottom2 {
+    background-image: url(./images/handbg.jpg);
+    height: 120%;
+    background-repeat: no-repeat;
+    padding-top: 25%;
+    width: 100%;
+    background-size: 100% auto;
+}
+
+.bottom2 img {
+    width: 100%;
+}
+
+
+.bot2all {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom2box {
+    background-color: white;
+    border: 1px solid;
+    width: 20%;
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+}
+
+.bottom2box img {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.bottom2box h5 {
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lastword {
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.lastword a {
+    width: 100px;
+    color: rgb(105, 186, 210);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p {}
+
+footer h5 {
+    margin-top: 20px;
+}
+
+footer a {
+    color: rgb(105, 186, 210);
+}
