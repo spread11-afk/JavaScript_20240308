@@ -1,0 +1,12 @@
+body{
+    background-color: #c3d2c0;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+}
+img{
+    border-radius: 10px;
+    cursor: pointer;
+}

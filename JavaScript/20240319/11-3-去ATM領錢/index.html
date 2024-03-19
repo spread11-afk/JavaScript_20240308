@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="tt"></h1>
+
+    <script>
+        let tt = document.getElementById('tt')
+        // let money = parseInt(prompt('請輸入金額'))
+        // if (money >= 100000) { tt.innerHTML = '超過提領上限(限10萬以下)' }
+        // else if (money < 100000 && money >= 100) { tt.innerHTML = '提領成功' }
+        // else { tt.innerHTML = '金額過小(限百元以上)' }
+        let aaa = parseInt(prompt('請輸入第一個金額'))
+        let bbb = parseInt(prompt('請輸入第二個金額'))
+        let ccc = prompt('請問要「+」還是「-」還是「*」還是「/」？')
+
+
+        // if (ccc == '+') { tt.innerHTML = aaa + bbb }
+        // else if (ccc == '-') { tt.innerHTML = aaa - bbb }
+        // else if (ccc == '*') { tt.innerHTML = aaa * bbb }
+        // else if (ccc == '/') { tt.innerHTML = aaa / bbb }
+        // else { tt.innerHTML = '輸入錯誤' }
+
+        function add(x, y) {
+            return x + y;
+        }
+
+        function subtract(x, y) {
+            return x - y;
+        }
+
+        function multiply(x, y) {
+            return x * y;
+        }
+
+        function divide(x, y) {
+            return x / y;
+        }
+
+        let result;
+
+        switch (ccc) {
+            case '+':
+                result = add(aaa, bbb);
+                break;
+            case '-':
+                result = subtract(aaa, bbb);
+                break;
+            case '*':
+                result = multiply(aaa, bbb);
+                break;
+            case '/':
+                result = divide(aaa, bbb);
+                break;
+            default:
+                result = "請輸入有效的運算符號（+、-、*、/）";
+        }
+
+        tt.innerHTML = `${aaa} ${ccc} ${bbb} = ${result}`;
+
+
+        // tt.innerHTML = aaa + `${ccc}` + bbb
+
+
+        console.log(aaa)
+        console.log(bbb)
+        console.log(ccc)
+    </script>
+</body>
+
+</html>
