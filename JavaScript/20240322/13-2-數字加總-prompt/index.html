@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>結果：<span id="tt"></span></h2>
+    <script>
+        let final = parseInt(prompt('請輸入數字'))
+        let tt = document.getElementById('tt')
+
+
+        if (parseInt(final) != final || final < 0) {
+            tt.innerHTML = '請輸入大於0的阿拉伯數字'
+            console.log(typeof (final))
+        }
+        else {
+            let anwser = 0
+            i = 1
+            while (i <= final) {
+                anwser = anwser + i
+                i += 1
+                tt.innerHTML = anwser
+                console.log(typeof (final))
+            }
+        }
+
+
+
+        // if (final == 'NaN' || final < 0) {
+        //     tt.innerHTML = '請輸入大於0的阿拉伯數字'
+        //     console.log(typeof (final))
+        // }
+        // else {
+        //     tt.innerHTML = final
+        //     console.log(typeof (final))
+        // }
+
+    </script>
+</body>
+
+</html>

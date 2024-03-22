@@ -1,0 +1,23 @@
+body {
+    background-image: url(./img/bg.jpg);
+}
+
+.pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: xxx 3s infinite;
+}
+
+@keyframes xxx {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(0.8) rotate(-15deg);}
+    100% {transform: scale(1) rotate(0deg);}
+}
+
+
+
+
+
+
+

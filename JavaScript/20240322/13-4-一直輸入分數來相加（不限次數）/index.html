@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>一直輸入分數來相加（不限次數）</title>
+</head>
+
+<body>
+    <h1 id="tt">一直輸入分數來相加（不限次數）</h1>
+
+
+    <script>
+        let sum = 0
+
+
+        while (true) {
+            let n = +prompt('輸入成績')
+            if (!n) {
+                break
+            }
+            sum += n
+
+        }
+        alert('總成績' + sum)
+        document.getElementById('tt').innerHTML = '總成績' + sum
+
+    </script>
+
+</body>
+
+</html>

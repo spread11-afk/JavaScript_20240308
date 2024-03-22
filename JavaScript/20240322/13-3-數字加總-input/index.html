@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>數字加總</title>
+</head>
+
+<body>
+    <h1>數字加總</h1>
+    <input id="num" name="num" type="text">
+    <button id="btn" type="button">按下</button>
+    <h2>結果：<span id="tt"></span></h2>
+
+    <script>
+        let btn = document.getElementById('btn')
+        btn.addEventListener('click', () => {
+
+            let final = document.getElementById('num').value
+            let tt = document.getElementById('tt')
+            if (parseInt(final) != final || final < 0) {
+                tt.innerHTML = '請輸入大於0的阿拉伯數字'
+                console.log(typeof (final))
+            }
+            else {
+                let anwser = 0
+                i = 1
+                while (i <= final) {
+                    anwser = anwser + i
+                    i += 1
+                    tt.innerHTML = anwser
+                    console.log(typeof (final))
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>

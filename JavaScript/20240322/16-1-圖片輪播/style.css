@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color:#e4eaeb;
+    background-image: radial-gradient(#f6f6f6,#adadad);
+}
+
+h1{
+    font-size: 60px;
+}
+
+img{
+border:14px solid #FFF;
+}

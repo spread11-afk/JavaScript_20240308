@@ -1,0 +1,23 @@
+
+body{
+    background-color: #bee2b7;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box img{
+    margin: 10px 15px;
+    border-radius: 30px;
+    border: #FFF 10px solid;
+    box-shadow: #666 1px 1px 4px;
+    cursor: pointer;
+    
+}

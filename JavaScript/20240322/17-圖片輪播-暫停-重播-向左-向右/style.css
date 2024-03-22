@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #e4eaeb;
+    background-image: radial-gradient(#f6f6f6, #adadad);
+}
+
+h1 {
+    font-size: 60px;
+    padding: 40px;
+}
+
+#box {
+    width: 760px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#iconL,
+#iconR {
+    cursor: pointer;
+}
