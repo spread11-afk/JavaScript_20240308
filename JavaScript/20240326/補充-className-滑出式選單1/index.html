@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="dialog hide">
+        <h2>滑出式對話框</h2>
+        <p><button onclick="aaa()">關閉</button></p>
+    </div>
+
+    <div class="container">
+        <h1>HTML DOM的基本觀念</h1>
+        <p>文件物件模型（Document Object Model,
+            DOM）是HTML文件的程式介面。它提供了一個文件的結構化表示法，並定義讓程式可以存取並改變文件架構、風格和內容的方法。DOM提供了文件以擁有屬性與函式的節點與物件組成的結構化表示。節點也可以附加事件處理程序，一旦觸發事件就會執行處理程序。
+            本質上，它將網頁與腳本或程式語言連結在一起。雖然常常使用JavaScript來存取DOM，但它本身並不是JavaScript語言的一部分，而且它也可以被其他語言存取。</p>
+        <p>文件物件模型是W3C組織推薦的處理可延伸標示語言和超文件標示語言的標準程式介面。Document Object
+            Model的歷史可以追溯至1990年代後期微軟與Netscape的「瀏覽器大戰」，雙方為了在JavaScript與JScript一決生死，於是大規模的賦予瀏覽器強大的功能。微軟在網頁技術上加入了不少專屬事物，既有VBScript、ActiveX、以及微軟自家的DHTML格式等，使不少網頁使用非微軟平台及瀏覽器無法正常顯示。DOM即是當時醞釀出來的傑作。
+        </p>
+        <p>DOM (Document Object Model) 譯為文件物件模型，是 HTML 和 XML 文件的編程介面。HTML DOM 定義了訪問和操作 HTML 文件的標準方法。DOM 以樹結構表達 HTML
+            文件。W3C
+            DOM標準被分為 3 個不同的部分：核心DOM針對任何結構化文件的標準模型、XML DOM - 針對 XML 文件的標準模型、HTML DOM針對HTML文件的標準模型、XML
+            DOM定義了所有XML元素的對象和屬性，以及訪問它們的方法。
+        </p>
+        <p>文件物件模型（Document Object Model,
+            DOM）是HTML文件的程式介面。它提供了一個文件的結構化表示法，並定義讓程式可以存取並改變文件架構、風格和內容的方法。DOM提供了文件以擁有屬性與函式的節點與物件組成的結構化表示。節點也可以附加事件處理程序，一旦觸發事件就會執行處理程序。
+            本質上，它將網頁與腳本或程式語言連結在一起。雖然常常使用JavaScript來存取DOM，但它本身並不是JavaScript語言的一部分，而且它也可以被其他語言存取。</p>
+        <p>文件物件模型是W3C組織推薦的處理可延伸標示語言和超文件標示語言的標準程式介面。Document Object
+            Model的歷史可以追溯至1990年代後期微軟與Netscape的「瀏覽器大戰」，雙方為了在JavaScript與JScript一決生死，於是大規模的賦予瀏覽器強大的功能。微軟在網頁技術上加入了不少專屬事物，既有VBScript、ActiveX、以及微軟自家的DHTML格式等，使不少網頁使用非微軟平台及瀏覽器無法正常顯示。DOM即是當時醞釀出來的傑作。
+        </p>
+
+        <button onclick="opendialog();">打開對話框</button>
+    </div>
+
+    <script>
+
+        function opendialog() {
+            document.querySelector(".dialog").classList.remove("hide")
+        }
+
+        function aaa() {
+            document.querySelector(".dialog").classList.add("hide")
+        }
+
+    </script>
+</body>
+
+</html>

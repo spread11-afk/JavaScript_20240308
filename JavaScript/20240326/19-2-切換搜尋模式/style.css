@@ -1,0 +1,39 @@
+body{
+    margin: 30px;
+}
+.searchbtn{
+    margin-bottom: 20px;
+}
+.txt{
+    width: 600px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-indent: 10px;
+    margin-right: 10px;
+}
+.btn{
+    height: 30px;
+}
+span{
+    display: inline-block;
+    width: 50px;
+    height:30px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* === 切換效果的樣式名稱 === */
+.tag-selected {
+    font-weight: bold;
+    color: #006eff;
+    border-bottom: #006eff 3px solid;    
+}
+
+.tag {
+    font-weight: normal;
+    color: black;
+    border-bottom:none;
+}
