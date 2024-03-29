@@ -1,0 +1,21 @@
+body{
+    background-color: #fff6db;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+h3{
+    width: 100px;
+    height: 40px;
+    background-color: #964b4b;
+    color: #FFF;
+    text-align: center;
+    line-height: 40px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: normal;
+}

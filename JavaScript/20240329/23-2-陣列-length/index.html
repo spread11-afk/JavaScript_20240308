@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>如果陣列有單數，把單數印出來</h1>
+    <div id="tt">
+
+    </div>
+
+
+    <script>
+        let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        // for (let i = 0; i < list.length; i += 1) {
+        //     if (list[i] % 2 !== 0) {
+        //         document.getElementById('tt').innerHTML += `<p>${list[i]}</p>`
+        //     }
+        // }
+
+        list.forEach((a, b) => {
+            // console.log(a)
+            if (a % 2 !== 0) {
+                document.getElementById('tt').innerHTML += `<p>${a}</p>`
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>

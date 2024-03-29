@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background: #d0d0d0;
+    border-radius: 50%;
+    border: #706e6e solid 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 50px;
+    color:#000;
+    font-size: 25px;
+}
+
+.Button {
+    display: block;
+    border-radius: 10px;
+    border: 0px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    margin: 50px auto;
+    background: #d61b60;
+    color: #fff;
+}
+
+.Button:hover {
+    background: #f47b17;
+}
+
+.Button:focus {
+    outline: none;
+}
+
